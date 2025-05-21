@@ -33,7 +33,7 @@ const ProductPage = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await fetch("http://localhost:5555/api/products/user/getproducts");
+        const res = await fetch("https://ecommerce-backend-7jv4.onrender.com/api/products/user/getproducts");
         const data = await res.json();
         // setProducts(data.products || []);
         // setFilteredProducts(data.products.slice(0, 10))
