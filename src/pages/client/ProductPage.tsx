@@ -157,11 +157,11 @@ const buyNow = async (product: any) => {
           {/* <option value="stock">Stock</option> */}
         </select>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+      <div className="grid m-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
         {filteredProducts.map((product:any) => (
 <Card
   key={product.id}
-  className="p-4 rounded-2xl shadow-lg border border-gray-100 bg-white transition-transform duration-300 hover:scale-[1.02] hover:shadow-xl"
+  className="p-4 rounded-2xl mr-6 gap-6 shadow-lg border border-gray-100 bg-white transition-transform duration-300 hover:scale-[1.02] hover:shadow-xl"
 >
   <div className="relative w-full h-40 overflow-hidden rounded-xl mb-2">
     <img
@@ -175,7 +175,7 @@ const buyNow = async (product: any) => {
     <CardTitle className="text-lg font-semibold text-gray-800 line-clamp-1">
       {product.title}
     </CardTitle>
-    <p className="text-sm text-gray-500 -mt-1">Comfortable and stylish gym wear</p>
+    <p className="text-sm text-gray-500 -mt-1">Comfortable and stylish women wear</p>
   </div>
 
   <CardContent className="mt-1 p-0 text-center">
