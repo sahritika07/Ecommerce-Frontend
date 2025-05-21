@@ -3,7 +3,7 @@ Your one-stop fashion destination built with the modern MERN stack! 🛒💃
 From browsing stylish outfits to seamless payments – experience smooth online shopping with Fashnova.
 
 
-🛠️ TECH STACK->
+🛠️ TECH STACK --->
 
 ⚛️ Frontend: React.js + Vite
 
@@ -16,7 +16,8 @@ From browsing stylish outfits to seamless payments – experience smooth online 
 🎨 Styling: Tailwind CSS
 
 
-🚀 SETUP INSTRUCTIONS
+
+🚀 SETUP INSTRUCTIONS --->
 
 1️⃣ Clone the Repository
 
@@ -48,7 +49,7 @@ npm run dev
 🎉 Thank You Page
 
 
-🔑 Demo Credentials
+🔑 Demo Credentials --->
 👤 User Login:
 ritikasah@gmail.com / ritikasah@gmail.com
 
@@ -56,7 +57,8 @@ ritikasah@gmail.com / ritikasah@gmail.com
 🛠️ Admin Panel:
 /admin (use the same login or set one in DB manually)
 
-💡 Highlights
+
+#💡 HIGHLIGHTS --->
 Fully functional e-commerce experience
 
 Stripe integration for real payments
@@ -66,7 +68,8 @@ Responsive & mobile-friendly UI
 Easy-to-manage admin dashboard
 
 
-#🖼️ Screens 
+
+#🖼️ Screens --->
 
 ✅ Login Page
 
