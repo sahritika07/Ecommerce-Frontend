@@ -102,7 +102,7 @@ const Login = () => {
                 ) : null}
                 {isLoading ? "Signing in..." : "Sign In"}
               </button>
-                   <p className="text-center text-sm text-teal-600">
+                   {/* <p className="text-center text-sm text-teal-600">
                 Don't have an account?{" "}
                 <a
                   href="/register"
@@ -110,7 +110,7 @@ const Login = () => {
                 >
                   Sign Up
                 </a>
-              </p>
+              </p> */}
             </form>
           </div>
         </div>

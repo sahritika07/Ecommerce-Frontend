@@ -77,7 +77,7 @@ const Navbar = () => {
               <div className="absolute right-0 mt-2 bg-gradient-to-r from-emerald-500 to-teal-600  hover:from-emerald-600 hover:to-teal-700 text-white rounded-lg shadow-md w-44 py-2">
                 {/* Profile Display */}
              
-                  <div className="flex items-center space-x-2">
+                  <div className="flex items-center space-x-2 p-2">
                     {/* <img
                       src="https://via.placeholder.com/40" // Placeholder profile image
                       alt="Profile"
@@ -86,11 +86,11 @@ const Navbar = () => {
                      {/* <User /> */}
                     <div>
                       <p className="font-semibold">{userDetails?.name}</p> {/* Replace with dynamic name */}
-                      <p className="text-sm text-gray-400">{userDetails?.email}</p> {/* Replace with dynamic email */}
+                      <p className="text-sm text-white">{userDetails?.email}</p> {/* Replace with dynamic email */}
                     </div>
                   </div>
         
-
+                <hr className="" />
                 {/* Dropdown Menu */}
                 <Link to="/client/profile" className="block px-2 py-2 hover:bg-teal-700">Profile Settings</Link>
                 <p onClick={handleLogout}className="block px-2 py-2 hover:bg-teal-700">Logout</p>
@@ -125,18 +125,18 @@ const Navbar = () => {
 
             {/* Mobile Profile Dropdown Menu */}
             {isProfileMenuOpen && (
-              <div className="absolute right-0 mt-2 bg-black text-white rounded-lg shadow-md w-64 py-2">
+              <div className="absolute right-0 mt-2 bg-black text-white rounded-lg shadow-md w-64 py-2 px-4 p-4">
                 {/* Profile Display */}
-                <div className="px-4 py-2 border-b border-gray-700">
+                <div className="px-6 py-4 border-b border-gray-700">
                   <div className="flex items-center space-x-2">
                     <img
                       src="https://via.placeholder.com/40" // Placeholder profile image
                       alt="Profile"
                       className="rounded-full w-12 h-12 object-cover"
                     />
-                    <div>
-                      <p className="font-semibold">{userDetails?.name}</p> {/* Replace with dynamic name */}
-                      <p className="text-sm text-gray-400"> {userDetails?.email}</p> {/* Replace with dynamic email */}
+                    <div className="p-4">
+                      <p className="font-semibold px-4 pl-2 ">{userDetails?.name}</p> {/* Replace with dynamic name */}
+                      <p className="text-sm pl-2 text-gray-400 px-4"> {userDetails?.email}</p> {/* Replace with dynamic email */}
                     </div>
                   </div>
                 </div>
