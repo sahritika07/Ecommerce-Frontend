@@ -1,76 +1,71 @@
-# Kripto Shop – MERN E-commerce App
+👗✨ Fashnova – MERN E-commerce Application
+Your one-stop fashion destination built with the modern MERN stack! 🛒💃
+From browsing stylish outfits to seamless payments – experience smooth online shopping with Fashnova.
 
-## 📦 Tech Stack
+🛠️ Tech Stack
+⚛️ Frontend: React.js + Vite
 
-- MongoDB + Mongoose
-- Express.js
-- React.js + Vite
-- Node.js
-- Stripe for Payments
-- Tailwind CSS
+🌐 Backend: Node.js + Express.js
 
----
+🗄️ Database: MongoDB + Mongoose
 
-## 🚀 Setup Instructions
+💳 Payments: Stripe
 
-### Clone the Repo
+🎨 Styling: Tailwind CSS
 
-```bash
-git clone https://github.com/your-username/kripto-shop.git
-cd kripto-shop
+🚀 Setup Instructions
+1️⃣ Clone the Repository
 
-
-
-
-
-
-
-
-Backend Setup
-
-
-
-cd backend
+2️⃣ Backend Setup
+bash
+Copy
+Edit
+cd ecom-backend
 npm install
 cp .env.example .env
-# Fill your MongoDB URI and Stripe keys
-npm run dev
-
-
-
-
-
-Frontend Setup
-
-
+# ✍️ Fill in your MongoDB URI and Stripe secret/public keys
+npm start
+3️⃣ Frontend Setup
+bash
+Copy
+Edit
 cd frontend
 npm install
 npm run dev
-
-
-
-
-
-
 📂 MongoDB Collections
-users
+👤 users
 
-products
+🛍️ products
 
-orders
+📦 orders
 
-🖼️ Screens
-✅ Login Page
+🖼️ Screens & Features
 
-✅ Admin Dashboard
+🔐 Login Page
 
-✅ Product Listing Page
+🛠️ Admin Dashboard
 
-✅ Payment Checkout
+🛒 Product Listing Page
 
-✅ Thank You Page
+💰 Payment Checkout (Stripe)
 
-🔑 Credentials
-Admin: / 
+🎉 Thank You Page
 
-User: ritika@gmail.com / ritika@gmail.com
+🔑 Demo Credentials
+👤 User Login:
+ritikasah@gmail.com / ritikasah@gmail.com
+
+🛠️ Admin Panel:
+/admin (use the same login or set one in DB manually)
+
+💡 Highlights
+Fully functional e-commerce experience
+
+Stripe integration for real payments
+
+Responsive & mobile-friendly UI
+
+Easy-to-manage admin dashboard
+
+📸 Screenshots 
+
