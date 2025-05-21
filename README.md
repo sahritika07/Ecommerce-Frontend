@@ -1,4 +1,4 @@
-👗✨ FASHNOVA – MERN E-commerce Application
+#👗✨FASHNOVA – MERN E-commerce Application
 Your one-stop fashion destination built with the modern MERN stack! 🛒💃
 From browsing stylish outfits to seamless payments – experience smooth online shopping with Fashnova.
 
