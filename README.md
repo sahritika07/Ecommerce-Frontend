@@ -85,9 +85,6 @@ Home Page
 
 ![Screenshot 2025-05-21 162317](https://github.com/user-attachments/assets/3a064f4c-64ed-4bc9-a099-b032d5832825)
 
-![Screenshot 2025-05-21 162317](https://github.com/user-attachments/assets/36dac9d9-157a-4e93-8936-747b3a3a6730)
-
-
 
 
 
