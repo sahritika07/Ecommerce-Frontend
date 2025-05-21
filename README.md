@@ -14,15 +14,14 @@ From browsing stylish outfits to seamless payments – experience smooth online 
 🎨 Styling: Tailwind CSS
 
 🚀 Setup Instructions
+
+
 1️⃣ Clone the Repository
 
 2️⃣ Backend Setup
-bash
-Copy
-Edit
-cd ecom-backend
-npm install
-cp .env.example .env
+
+cd backend npm install cp .env.example .env
+
 # ✍️ Fill in your MongoDB URI and Stripe secret/public keys
 npm start
 3️⃣ Frontend Setup
@@ -68,4 +67,10 @@ Responsive & mobile-friendly UI
 Easy-to-manage admin dashboard
 
 📸 Screenshots 
+
+![Screenshot 2025-05-21 162033](https://github.com/user-attachments/assets/becfc0f9-d26b-4825-ae1e-caac15866a5c)
+
+
+
+
 
