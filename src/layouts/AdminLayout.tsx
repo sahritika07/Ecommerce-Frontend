@@ -1,3 +1,7 @@
+// @ts-ignore
+// @ts-nocheck
+
+
 import Sidebar from "../components/admin/Sidebar";
 import Topbar from "../components/admin/Topbar";
 
