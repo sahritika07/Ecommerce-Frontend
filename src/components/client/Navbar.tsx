@@ -4,6 +4,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { Menu, X, ChevronDown, User, ShoppingCart } from "lucide-react"; // ChevronDown for dropdown indicator
 import axios from "axios";
+import { useState } from "react";
 
 const Navbar = () => {
   const navigate = useNavigate();
