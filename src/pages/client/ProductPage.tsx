@@ -139,7 +139,7 @@ const buyNow = async (product: any) => {
   return (
     <div className="p-6">
       <div className="flex gap-4 mb-6">
-        <Input placeholder="Search Products..." value={search} onChange={(e) => setSearch(e.target.value)} />
+        <Input className="" placeholder="Search Products..." value={search} onChange={(e) => setSearch(e.target.value)} />
         <select className="border p-2" value={category} onChange={(e) => setCategory(e.target.value)}>
           <option value="">All Categories</option>
           <option value="women's clothing">Women</option>

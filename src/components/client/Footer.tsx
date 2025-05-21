@@ -14,8 +14,7 @@ const Footer = () => {
         <div className="flex flex-col items-start gap-5">
           <div className="text-4xl font-bold text-teal-700">Fashnova</div>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore dolore ab sunt quas
-            culpa, officia mollitia earum vitae dolor, eos sit
+            Discover the latest trends in fashion with our curated collection of stylish, high-quality clothing for all occasions. Shop effortlessly with easy navigation, secure checkout, and fast delivery.
           </p>
           
           <div className="flex space-x-6 justify-center md:justify-start">
@@ -59,7 +58,7 @@ const Footer = () => {
           <h2 className="text-teal-700 text-lg font-semibold">GET IN TOUCH</h2>
           <ul>
             <li className="mb-2">9876543210</li>
-            <li className="mb-2">contact@tomato.com</li>
+            <li className="mb-2">contact@fashnova.com</li>
           </ul>
         </div>
       </div>
@@ -67,7 +66,7 @@ const Footer = () => {
       <hr className="w-full h-[2px] my-2 bg-gray-500 border-none" />
 
       <p className="text-center text-teal-700 text-sm mb-6">
-        Copyright 2024 © Tomato.com - All Right Reserved
+        Copyright 2024 © Fashnova.com - All Right Reserved
       </p>
     </div>
   );
