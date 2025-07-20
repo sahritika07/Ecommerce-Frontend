@@ -267,6 +267,7 @@ const Home = () => {
             </div>
           </div>
 
+
         </div>
       </section>
 
@@ -330,6 +331,7 @@ const Home = () => {
           className="bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 transition-all duration-300 shadow-lg hover:shadow-xl"
         >
           Get Started <ArrowRight className="ml-2 h-4 w-4" />
+          
         </Button>
       </section>
     </div>
