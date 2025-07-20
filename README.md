@@ -1,8 +1,10 @@
-👗✨ Fashnova – MERN E-commerce Application
+FASHNOVA – MERN E-commerce Application
 Your one-stop fashion destination built with the modern MERN stack! 🛒💃
 From browsing stylish outfits to seamless payments – experience smooth online shopping with Fashnova.
 
-🛠️ Tech Stack
+
+🛠️ TECH STACK --->
+
 ⚛️ Frontend: React.js + Vite
 
 🌐 Backend: Node.js + Express.js
@@ -13,8 +15,9 @@ From browsing stylish outfits to seamless payments – experience smooth online 
 
 🎨 Styling: Tailwind CSS
 
-🚀 Setup Instructions
 
+
+🚀 SETUP INSTRUCTIONS --->
 
 1️⃣ Clone the Repository
 
@@ -22,8 +25,9 @@ From browsing stylish outfits to seamless payments – experience smooth online 
 
 cd backend npm install cp .env.example .env
 
-# ✍️ Fill in your MongoDB URI and Stripe secret/public keys
+✍️ Fill in your MongoDB URI and Stripe secret/public keys
 npm start
+
 3️⃣ Frontend Setup
 bash
 Copy
@@ -31,33 +35,30 @@ Edit
 cd frontend
 npm install
 npm run dev
+
 📂 MongoDB Collections
+
 👤 users
-
 🛍️ products
-
 📦 orders
-
 🖼️ Screens & Features
-
 🔐 Login Page
-
 🛠️ Admin Dashboard
-
 🛒 Product Listing Page
-
 💰 Payment Checkout (Stripe)
-
 🎉 Thank You Page
 
-🔑 Demo Credentials
+
+🔑 Demo Credentials --->
 👤 User Login:
 ritikasah@gmail.com / ritikasah@gmail.com
+
 
 🛠️ Admin Panel:
 /admin (use the same login or set one in DB manually)
 
-💡 Highlights
+
+#💡 HIGHLIGHTS --->
 Fully functional e-commerce experience
 
 Stripe integration for real payments
@@ -66,15 +67,26 @@ Responsive & mobile-friendly UI
 
 Easy-to-manage admin dashboard
 
-📸 Screenshots 
 
-🖼️ Screens ✅ Login Page
+
+#🖼️ Screens --->
+
+✅ Login Page
 
 ![Screenshot 2025-05-21 162033](https://github.com/user-attachments/assets/becfc0f9-d26b-4825-ae1e-caac15866a5c)
 
 Home Page
 
 ![Screenshot 2025-05-21 162653](https://github.com/user-attachments/assets/d05a383b-867e-403a-8958-483d7d1e7153)
+
+![Screenshot 2025-05-21 162154](https://github.com/user-attachments/assets/163e5b34-0eb4-44d5-b96c-b6aeb94b5bf8)
+
+![Screenshot 2025-05-21 162256](https://github.com/user-attachments/assets/b17bfa6e-c79a-468f-b969-079c42d49bc8)
+
+![Screenshot 2025-05-21 162317](https://github.com/user-attachments/assets/3a064f4c-64ed-4bc9-a099-b032d5832825)
+
+
+
 
 ✅ Admin Dashboard
 
